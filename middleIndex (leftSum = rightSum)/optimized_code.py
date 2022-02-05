@@ -17,7 +17,7 @@ def findMiddleIndex(self, nums: List[int]) -> int:
         if i==len(nums)-1:
             right=0
         else:
-            right = Prefix_Sum[len(nums)-1] - Prefix_Sum[i]
+            right = Prefix_Sum[len(nums)-1] - Prefix_Sum[i] 
             
             
         if left == right:

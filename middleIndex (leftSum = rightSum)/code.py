@@ -10,4 +10,4 @@ def findMiddleIndex(self, nums: List[int]) -> int:
         leftSum += nums[i]
         rightSum -= nums[i]
         
-    return -1
+    return -1 
