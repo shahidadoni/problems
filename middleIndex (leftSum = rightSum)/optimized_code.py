@@ -1,3 +1,6 @@
+from ast import List
+
+
 def findMiddleIndex(self, nums: List[int]) -> int:
     Prefix_Sum = [0] * len(nums)        #Intialize with 0 and length will be same sa nums
     
